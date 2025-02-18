@@ -5,6 +5,19 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlShot", "src\SqlShot\SqlShot.csproj", "{0D18A1C9-475C-4A4B-90E1-4BAFDB9A3757}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		Directory.Packages.props = Directory.Packages.props
+		LICENSE = LICENSE
+		README.md = README.md
+		SpellingExclusions.dic = SpellingExclusions.dic
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlShot.Tests", "tests\SqlShot.Tests\SqlShot.Tests.csproj", "{962E1622-F575-4CFA-9493-BCB9268BB90C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +28,15 @@ Global
 		{0D18A1C9-475C-4A4B-90E1-4BAFDB9A3757}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D18A1C9-475C-4A4B-90E1-4BAFDB9A3757}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D18A1C9-475C-4A4B-90E1-4BAFDB9A3757}.Release|Any CPU.Build.0 = Release|Any CPU
+		{962E1622-F575-4CFA-9493-BCB9268BB90C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{962E1622-F575-4CFA-9493-BCB9268BB90C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{962E1622-F575-4CFA-9493-BCB9268BB90C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{962E1622-F575-4CFA-9493-BCB9268BB90C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AB40AE74-B98F-42B7-8808-911FFED3AE87}
 	EndGlobalSection
 EndGlobal
